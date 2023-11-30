@@ -20,7 +20,9 @@ First, make sure that the current directory opened in the terminal is the correc
 
 1. And make sure you have the required dependencies installed before running the code. You can install them by executing the following command in your terminal:
 
-	```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 This command installs the necessary Python packages listed in the requirements.txt file, including:
 -pandas
@@ -29,16 +31,19 @@ This command installs the necessary Python packages listed in the requirements.t
 -matplotlib
 -mlxtend
 
-Additionally, ensure that you have the necessary dependencies for the MLxtend library, which is used for Sequential Feature Selection. Install it separately using:
+Additionally, ensure that you have the necessary dependencies for the MLxtend library, which is used for Sequential Feature Selection. Install it separately using:  
 
-	```pip install mlxtend```
+```
+pip install mlxtend
+```
 
 2. Now change the dataset file name to dataset.csv.
 	eg. breast_cancer.csv --> dataset.csv
 
-3. How to run the code; Use this command on the terminal:
- 
-	```python main.py```
+3. How to run the code; Use this command on the terminal:  
+```
+python main.py
+```
 
 4. Input Format: You have to type the proper text(method name given in the option) for choosing the option. To configure the data preprocessing and model selection for your machine learning pipeline, follow the following steps:
 
