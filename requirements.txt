@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+reportlab
+matplotlib
+mlxtend
