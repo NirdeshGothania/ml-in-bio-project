@@ -25,11 +25,11 @@ pip install -r requirements.txt
 ```
 
 This command installs the necessary Python packages listed in the requirements.txt file, including:
--pandas
--scikit-learn
--reportlab
--matplotlib
--mlxtend
+- pandas
+- scikit-learn
+- reportlab
+- matplotlib
+- mlxtend
 
 Additionally, ensure that you have the necessary dependencies for the MLxtend library, which is used for Sequential Feature Selection. Install it separately using:  
 
