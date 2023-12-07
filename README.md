@@ -45,13 +45,18 @@ pip install mlxtend
 python main.py
 ```
 
-4. Input Format: You have to type the proper text(method name given in the option) for choosing the option. To configure the data preprocessing and model selection for your machine learning pipeline, follow the following steps:
+4. **Input Format**: 
+
+You have to type the proper text(method name given in the option) for choosing the option. To configure the data preprocessing and model selection for your machine learning pipeline, follow the following steps:
 
 	i) Choose the normalization/standardization method by specifying one of the options: Standard, MinMax, or Robust.
 	ii) Indicate the feature selection method to use by selecting from the options: SelectKBest, RFE, VarianceThreshold, PCA, or SFS.
 	iii) Define the cross-validation approach by selecting from the options: kfold, stratified_kfold, or leave_one_out.
 	iv) Specify the classification model to employ by choosing from the options: RandomForest, SVM, LogisticRegression, GradientBoosting, or NaiveBayes.
 
-5. Output Information:
+5. **Output Information**:
+
+To view the results of the machine learning pipeline, refer to the following:
+
 	i) An output file named "report.pdf" will be created in the same directory as the main source file main.py.
 	ii) The file contains plots on scores of cross-validation and overall metrics on the blind dataset.
